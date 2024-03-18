@@ -1,8 +1,5 @@
 # Pick Your Lunch  
-[Link](https://pick-your-lunch.netlify.app/)
-
-<a href="https://pick-your-lunch.netlify.app/" target="_blank">Link</a>
-
+[Site Link](https://pick-your-lunch.netlify.app/)
 
 
 > 자료출처: Mean's Big-Data
