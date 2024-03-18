@@ -1,5 +1,7 @@
 # Pick Your Lunch  
-[Link](https://pick-your-lunch.netlify.app/){:target="_blank"}
+[Link](https://pick-your-lunch.netlify.app/)
+
+<a href="https://pick-your-lunch.netlify.app/" target="_blank">Link</a>
 
 
 
