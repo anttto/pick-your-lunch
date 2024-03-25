@@ -1,4 +1,10 @@
-const stores = [
+interface Store {
+    name: string;
+    position: number;
+    avg: number;
+}
+
+const stores: Store[] = [
     { name: '서울 감자탕 (뼈해장국 고기가 많음)', position: 123, avg: 555 },
     { name: '화수목 (샤브샤브)', position: 123, avg: 555 },
     { name: '서현실비 (점심엔 된장찌개)', position: 123, avg: 555 },
@@ -37,6 +43,6 @@ const stores = [
     { name: '분타 (쌀국수집)', position: 123, avg: 555 },
 ];
 
-export function getStores() {
+export function getStores(): Store[] {
     return stores;
 }
