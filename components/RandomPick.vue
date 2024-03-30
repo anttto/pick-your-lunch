@@ -1,10 +1,9 @@
 <template>
     <div class="flex flex-col justify-center items-center w-full min-h-[40vh] text-center gap-y-10">
         <h1 class='storeName'>{{ pickedStore ? pickedStore.name : '어디 갈까?' }}</h1>
-        <button @click="randomPickGame" class='border-[1px] w-[90vw] py-2'>
-            오늘은 여기다 !! (click)
+        <button @click="randomPickGame" class='border-[1px] w-[90vw] py-2 bg-gray-400 rounded-md'>
+            오늘의 메뉴는? (click)
         </button>
-
     </div>
 </template>
 
